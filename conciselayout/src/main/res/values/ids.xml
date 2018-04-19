@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="icon_left" type="id">icon_left</item>
+    <item name="icon_right" type="id">icon_right</item>
+    <item name="left_text" type="id">left_text</item>
+    <item name="center_text" type="id">center_text</item>
+    <item name="right_text" type="id">right_text</item>
+    <item name="point_text" type="id">point_text</item>
+    <item name="left" type="id">left</item>
+    <item name="right" type="id">right</item>
+</resources>

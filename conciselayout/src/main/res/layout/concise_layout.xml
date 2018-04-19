@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:layout_margin="0dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="0dp"
+    android:weightSum="3">
+
+    <RelativeLayout
+        android:id="@id/left"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@id/icon_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:scaleType="centerInside"/>
+
+        <TextView
+            android:id="@id/left_text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/icon_left"
+            android:gravity="center_vertical"
+            android:maxLines="1"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@id/center_text"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:maxLines="1" />
+
+
+    <RelativeLayout
+        android:id="@id/right"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@id/right_text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/point_text"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@id/point_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/icon_right"
+            android:gravity="center"
+            android:maxLines="1"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@id/icon_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:scaleType="centerInside"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+
+</LinearLayout>

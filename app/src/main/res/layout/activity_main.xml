@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:divider="@drawable/linearlayout_vertical_divider"
+    android:dividerPadding="5dp"
+    android:orientation="vertical"
+    android:showDividers="middle"
+    tools:context="com.deilsky.conciselayoutsimple.MainActivity">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@drawable/linearlayout_vertical_divider"
+            android:dividerPadding="5dp"
+            android:orientation="vertical"
+            android:showDividers="middle">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="普通TextView"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp" />
+
+            <com.deilsky.conciselayout.ConciseLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                app:center_text="标题"
+                app:center_text_color="@color/colorPrimary"
+                app:center_text_show="true"
+                app:center_text_size="18sp" />
+
+            <com.deilsky.conciselayout.ConciseLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                app:center_text="标题"
+                app:center_text_color="@color/colorPrimary"
+                app:center_text_show="true"
+                app:center_text_size="18sp"
+                app:icon_left_image="@drawable/ic_back"
+                app:icon_left_show="true" />
+
+            <com.deilsky.conciselayout.ConciseLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                app:center_text="标题"
+                app:center_text_color="@color/colorPrimary"
+                app:center_text_show="true"
+                app:center_text_size="18sp"
+                app:icon_right_image="@drawable/ic_right_icon"
+                app:icon_right_show="true" />
+
+            <com.deilsky.conciselayout.ConciseLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                app:center_text="标题"
+                app:center_text_color="@color/colorPrimary"
+                app:center_text_show="true"
+                app:center_text_size="18sp"
+                app:icon_left_image="@drawable/ic_back"
+                app:icon_left_show="true"
+                app:left_text="返回"
+                app:left_text_show="true"
+                app:left_text_size="14sp" />
+            <com.deilsky.conciselayout.ConciseLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                app:center_text="标题"
+                app:center_text_color="@color/colorPrimary"
+                app:center_text_show="true"
+                app:center_text_size="18sp"
+                app:icon_right_image="@drawable/ic_right_icon"
+                app:icon_right_show="true"
+                app:right_text="返回"
+                app:right_text_show="true"
+                app:right_text_size="14sp" />
+
+            <com.deilsky.conciselayout.ConciseLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                app:center_text="标题"
+                app:center_text_color="@color/colorPrimary"
+                app:center_text_show="true"
+                app:center_text_size="18sp"
+                app:icon_left_image="@drawable/ic_back"
+                app:icon_left_show="true"
+                app:icon_right_image="@drawable/ic_right_icon"
+                app:icon_right_show="true"
+                app:left_text="返回"
+                app:left_text_show="true"
+                app:left_text_size="14sp" />
+            <com.deilsky.conciselayout.ConciseLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                app:center_text="标题"
+                app:center_text_color="@color/colorPrimary"
+                app:center_text_show="true"
+                app:center_text_size="18sp"
+                app:icon_left_image="@drawable/ic_back"
+                app:icon_left_show="true"
+                app:icon_right_image="@drawable/ic_right_icon"
+                app:icon_right_show="true"
+                app:right_text="编辑"
+                app:right_text_show="true"
+                app:left_text_show="false" />
+
+            <com.deilsky.conciselayout.ConciseLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                app:center_text="标题"
+                app:center_text_color="@color/colorPrimary"
+                app:center_text_show="true"
+                app:center_text_size="18sp"
+                app:icon_left_image="@drawable/ic_back"
+                app:icon_left_show="true"
+                app:icon_right_image="@drawable/ic_right_icon"
+                app:icon_right_show="true"
+                app:left_text="返回"
+                app:left_text_show="true"
+                app:left_text_size="14sp"
+                app:right_text="编辑"
+                app:right_text_show="true" />
+
+            <com.deilsky.conciselayout.ConciseLayout
+                android:id="@+id/concise"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                app:center_text="标题"
+                app:center_text_color="@color/colorPrimary"
+                app:center_text_show="true"
+                app:center_text_size="18sp"
+                app:icon_left_image="@drawable/ic_back"
+                app:icon_left_show="true"
+                app:icon_right_image="@drawable/ic_right_icon"
+                app:icon_right_show="true"
+                app:left_text="返回"
+                app:left_text_show="true"
+                app:left_text_size="14sp"
+                app:point_show="true"
+                app:point_size="30dp"
+                app:point_text="5"
+                app:right_text="编辑"
+                app:right_text_show="true" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ConciseLayout">
+        <!--左侧设置-->
+        <!--左侧图标设置-->
+        <attr name="icon_left_show" format="boolean" />
+        <attr name="icon_left_image" format="reference" />
+        <attr name="icon_left_margin" format="dimension" />
+        <attr name="icon_left_margin_top" format="dimension" />
+        <attr name="icon_left_margin_left" format="dimension" />
+        <attr name="icon_left_margin_right" format="dimension" />
+        <attr name="icon_left_margin_bottom" format="dimension" />
+        <!--左侧文字设置-->
+        <attr name="left_text" format="reference|string" />
+        <attr name="left_text_show" format="boolean"/>
+        <attr name="left_text_size" format="dimension" />
+        <attr name="left_text_color" format="reference" />
+        <!--左侧设置结束-->
+        <!--右侧设置-->
+        <!--右侧图标设置-->
+        <attr name="icon_right_show" format="boolean" />
+        <attr name="icon_right_image" format="reference" />
+        <attr name="icon_right_margin" format="dimension" />
+        <attr name="icon_right_margin_top" format="dimension" />
+        <attr name="icon_right_margin_left" format="dimension" />
+        <attr name="icon_right_margin_right" format="dimension" />
+        <attr name="icon_right_margin_bottom" format="dimension" />
+        <!--右侧文字设置-->
+        <attr name="right_text" format="reference|string" />
+        <attr name="right_text_show" format="boolean"/>
+        <attr name="right_text_size" format="dimension" />
+        <attr name="right_text_color" format="reference" />
+        <!--右侧设置结束-->
+        <!--中部设置-->
+        <attr name="center_text_show" format="boolean" />
+        <attr name="center_text" format="reference|string" />
+        <attr name="center_text_size" format="dimension" />
+        <attr name="center_text_color" format="reference" />
+        <!--圆点设置-->
+        <attr name="point_show" format="boolean"/>
+        <attr name="point_text" format="string" />
+        <attr name="point_text_size" format="dimension"/>
+        <attr name="point_color" format="reference" />
+        <attr name="point_text_color" format="reference" />
+        <attr name="point_size" format="dimension"/>
+    </declare-styleable>
+</resources>
